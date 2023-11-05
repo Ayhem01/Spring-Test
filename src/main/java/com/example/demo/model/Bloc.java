@@ -21,7 +21,7 @@ private long capaciteBloc;
 
 @ManyToOne
     private Foyer foyer;
-@OneToMany( mappedBy="blocs")
+@OneToMany( mappedBy="bloc")
 private Set<Chambre> chambres;
 
 

@@ -21,7 +21,7 @@ private long numeroChambre;
 private TypeChambre typeChambre;
 
 @ManyToOne
-    private Bloc blocs;
+    private Bloc bloc;
 @OneToMany
     private Set<Reservation> reservations ;
 }
